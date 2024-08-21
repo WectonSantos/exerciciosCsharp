@@ -30,7 +30,7 @@ namespace tp_02_wecton_228550
             double atrito = double.Parse(txtAtrito.Text);
             double F = double.Parse(txtForca.Text);
             double a = double.Parse(txtAngulo.Text);
-            a = a * (180/Math.PI);
+            a = a * (Math.PI/180);
             double fat;
             double d = double.Parse(txtDeslocamento.Text);
             double sinA = Math.Sin(a);
