@@ -1,0 +1,33 @@
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.exe.config
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.pdb
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03_wecton_228550.Form1.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03_wecton_228550.Properties.Resources.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.GenerateResource.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.pdb
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.exe.config
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.exe
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.pdb
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.AssemblyReference.cache
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.SuggestedBindingRedirects.cache
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03_wecton_228550.Form1.resources
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03_wecton_228550.Properties.Resources.resources
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.GenerateResource.cache
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.CoreCompileInputs.cache
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.exe
+H:\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.pdb
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.exe.config
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\bin\Debug\tp03-wecton-228550.pdb
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03_wecton_228550.Form1.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03_wecton_228550.Properties.Resources.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.GenerateResource.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 03-CORRIGIDA\Atividade 03\tp03-wecton-228550\tp03-wecton-228550\obj\Debug\tp03-wecton-228550.pdb
