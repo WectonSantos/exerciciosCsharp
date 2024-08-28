@@ -1,0 +1,11 @@
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\bin\Debug\aula03.exe.config
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\bin\Debug\aula03.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\bin\Debug\aula03.pdb
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.frmPrincipal.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.Properties.Resources.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.csproj.GenerateResource.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula03\aula03\obj\Debug\aula03.pdb
