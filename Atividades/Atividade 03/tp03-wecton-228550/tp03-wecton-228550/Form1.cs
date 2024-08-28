@@ -34,15 +34,20 @@ namespace tp03_wecton_228550
             {
                 s0 = Convert.ToDouble(txtEspacoInicial.Text);
                 v0 = Convert.ToDouble(txtVelocidadeInicial.Text);
-                a = Convert.ToDouble(txtVelocidadeInicial.Text);
+                t = Convert.ToDouble(txtTempo.Text);
 
                 string verificaA = txtAceleracao.Text;
                 if (verificaA == "")
                 {
                     a = 0;
                 }
+                else
+                {
+                    a = Convert.ToDouble(txtAceleracao.Text);
 
-                t = Convert.ToDouble(txtTempo.Text);
+                }
+
+
 
                 if (s0 <= 0)
                 {
@@ -70,7 +75,7 @@ namespace tp03_wecton_228550
                         {
                             if (a <= 0)
                             {
-                                s = s0 + v0 * t;
+                                s = s0 + (v0 * t);
                                 txtResultado.Text = s.ToString();
                                 txtResultado2.Text = v0.ToString();
 
