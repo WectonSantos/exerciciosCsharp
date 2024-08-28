@@ -24,6 +24,7 @@ namespace tp03_wecton_228550
             InitializeComponent();
         }
 
+        #region botão-calcular
         private void btnCalcular_Click(object sender, EventArgs e)
         {
 
@@ -94,7 +95,9 @@ namespace tp03_wecton_228550
                 return;
             }
         }
+        #endregion
 
+        #region botao-limpar
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             msg = "Quer mesmo limpar?";
@@ -114,12 +117,16 @@ namespace tp03_wecton_228550
                 txtEspacoInicial.Focus();
             }
         }
+        #endregion
 
+        #region data-hora
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblTempo.Text = DateTime.Now.ToString();
         }
+        #endregion
 
+        #region botao-sair
         private void btnSair_Click(object sender, EventArgs e)
         {
             msg = "Tem certeza?";
@@ -132,6 +139,7 @@ namespace tp03_wecton_228550
                 this.Close();
             }
         }
+        #endregion
 
         private void Form1_Load(object sender, EventArgs e)
         {
