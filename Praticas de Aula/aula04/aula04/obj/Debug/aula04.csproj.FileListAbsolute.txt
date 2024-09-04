@@ -1,0 +1,11 @@
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\bin\Debug\aula04.exe.config
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\bin\Debug\aula04.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\bin\Debug\aula04.pdb
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.frmJogo.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.Properties.Resources.resources
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.csproj.GenerateResource.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.exe
+C:\Users\unisanta\Desktop\exerciciosCsharp\Praticas de Aula\aula04\aula04\obj\Debug\aula04.pdb
