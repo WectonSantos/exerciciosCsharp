@@ -20,6 +20,7 @@ namespace tp04_wecton_228550
         string opcaoNome = "";
         string cpuNome= "";
         int encerrou = 0;
+        string reinicia = "\\branco.jpeg";
 
         int x;
         #endregion
@@ -313,6 +314,7 @@ namespace tp04_wecton_228550
 
         void verifica()
         {
+            //verifica 2
             if(array[0] == 2)
             {
                 pb1.Image = Image.FromFile(Directory.GetCurrentDirectory() + cpuNome);
@@ -349,6 +351,44 @@ namespace tp04_wecton_228550
             {
                 pb9.Image = Image.FromFile(Directory.GetCurrentDirectory() + cpuNome);
             }
+
+            // reinicia
+            if (array[0] == 0)
+            {
+                pb1.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[1] == 0)
+            {
+                pb2.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[2] == 0)
+            {
+                pb3.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[3] == 0)
+            {
+                pb4.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[4] == 0)
+            {
+                pb5.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[5] == 0)
+            {
+                pb6.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[6] == 0)
+            {
+                pb7.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[7] == 0)
+            {
+                pb8.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
+            if (array[8] == 0)
+            {
+                pb9.Image = Image.FromFile(Directory.GetCurrentDirectory() + reinicia);
+            }
         }
 
         void acabouJogador1()
@@ -381,7 +421,7 @@ namespace tp04_wecton_228550
             {
                 encerrou = 1;
             }
-            if (array[2] == 1 && array[4] == 1 && array[7] == 1)
+            if (array[0] == 1 && array[4] == 1 && array[8] == 1)
             {
                 encerrou = 1;
             }
@@ -389,15 +429,8 @@ namespace tp04_wecton_228550
             if(encerrou == 1)
             {
                 MessageBox.Show("FIM DE JOGO. VOCÊ VENCEU!", "OK");
-                array[0] = 0;
-                array[1] = 0;
-                array[2] = 0;
-                array[3] = 0;
-                array[4] = 0;
-                array[5] = 0;
-                array[6] = 0;
-                array[7] = 0;
-                array[8] = 0;
+                Array.Clear(array, 0, array.Length);
+                verifica();
             }
         }
         void acabouJogador2()
@@ -430,7 +463,7 @@ namespace tp04_wecton_228550
             {
                 encerrou = 2;
             }
-            if (array[2] == 2 && array[4] == 2 && array[7] == 2)
+            if (array[0] == 2 && array[4] == 2 && array[8] == 2)
             {
                 encerrou = 2;
             }
@@ -438,16 +471,12 @@ namespace tp04_wecton_228550
             if (encerrou == 2)
             {
                 MessageBox.Show("FIM DE JOGO. VOCÊ PERDEU!", "OK");
-                array[0] = 0;
-                array[1] = 0;
-                array[2] = 0;
-                array[3] = 0;
-                array[4] = 0;
-                array[5] = 0;
-                array[6] = 0;
-                array[7] = 0;
-                array[8] = 0;
+                Array.Clear(array, 0, array.Length);
+                verifica();
+
             }
         }
+
+
     }
 }
