@@ -24,6 +24,11 @@ namespace tp04_wecton_228550
         int x;
         int vitorias = 0, empates = 0, derrotas = 0;
         int velha = 0;
+
+        string msg, titulo;
+        MessageBoxButtons botoes;
+        MessageBoxIcon icone;
+        MessageBoxDefaultButton definido;
         #endregion
         public frmPrincipal()
         {
@@ -279,7 +284,15 @@ namespace tp04_wecton_228550
         #region botao de sair
         private void btnSair_Click(object sender, EventArgs e)
         {
-            Close();
+            msg = "Deseja mesmo encerrar?";
+            titulo = "Sair";
+            botoes = MessageBoxButtons.YesNo;
+            icone = MessageBoxIcon.Warning;
+            definido = MessageBoxDefaultButton.Button2;
+            if (MessageBox.Show(msg, titulo, botoes, icone, definido) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
         #endregion
         #region jogada do computador
