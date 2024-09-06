@@ -21,8 +21,9 @@ namespace tp04_wecton_228550
         string cpuNome= "";
         int encerrou = 0;
         string reinicia = "\\branco.jpeg";
-
         int x;
+        int vitorias = 0, empates = 0, derrotas = 0;
+        int velha = 0;
         #endregion
         public frmPrincipal()
         {
@@ -30,6 +31,7 @@ namespace tp04_wecton_228550
 
         }
 
+        #region escolhas do jogador
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             opcao = 1;
@@ -41,40 +43,6 @@ namespace tp04_wecton_228550
             opcao = 2;
             escolhe();
         }
-
-        private void btnComecar_Click(object sender, EventArgs e)
-        {
-            if (opcao != 0)
-            {
-                comecou = 1;
-            }
-        }
-
-        private void pb1_Click(object sender, EventArgs e)
-        {
-            if (comecou == 1)
-            {
-                if (array[0] == 0) {
-                    array[0] = 1;
-                    pb1.Image = Image.FromFile(Directory.GetCurrentDirectory() + opcaoNome);
-                    aleatorio();
-                    verifica();
-                    acabouJogador1();
-                    acabouJogador2();
-                }
-                else
-                {
-                    MessageBox.Show("JOGADA INVÁLIDA", "Selecione outro...");
-                }
-            }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            gbJogo.ForeColor = Color.Red;
-            gbJogo.Text = "" + textBox1.Text +" x Computador";
-        }
-
         void escolhe()
         {
             if (opcao == 1)
@@ -88,7 +56,7 @@ namespace tp04_wecton_228550
                 pbCPU.Image = Image.FromFile(Directory.GetCurrentDirectory() + "\\Real_Madrid.png");
 
             }
-            else if(opcao == 2)
+            else if (opcao == 2)
             {
                 jogador = 2;
                 cpu = 1;
@@ -99,7 +67,47 @@ namespace tp04_wecton_228550
                 pbCPU.Image = Image.FromFile(Directory.GetCurrentDirectory() + "\\Santos_Logo.png");
             }
         }
+        #endregion
 
+        #region comecar o jogo
+        private void btnComecar_Click(object sender, EventArgs e)
+        {
+            if (opcao != 0)
+            {
+                comecou = 1;
+            }
+        }
+        #endregion
+
+        #region mudar texto
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            gbJogo.ForeColor = Color.Red;
+            gbJogo.Text = "" + textBox1.Text +" x Computador";
+        }
+        #endregion
+
+        #region jogadas do usuario
+        private void pb1_Click(object sender, EventArgs e)
+        {
+            if (comecou == 1)
+            {
+                if (array[0] == 0)
+                {
+                    array[0] = 1;
+                    pb1.Image = Image.FromFile(Directory.GetCurrentDirectory() + opcaoNome);
+                    aleatorio();
+                    verifica();
+                    acabouJogador1();
+                    acabouJogador2();
+                    verificaVelha();
+                }
+                else
+                {
+                    MessageBox.Show("JOGADA INVÁLIDA", "Selecione outro...");
+                }
+            }
+        }
         private void pb2_Click(object sender, EventArgs e)
         {
             if (comecou == 1)
@@ -112,7 +120,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -120,13 +128,6 @@ namespace tp04_wecton_228550
                 }
             }
         }
-
-        #region lixo
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-        #endregion
         private void pb3_Click(object sender, EventArgs e)
         {
             if (comecou == 1)
@@ -139,7 +140,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -160,7 +161,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -181,7 +182,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -202,7 +203,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -223,7 +224,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -244,7 +245,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -265,7 +266,7 @@ namespace tp04_wecton_228550
                     verifica();
                     acabouJogador1();
                     acabouJogador2();
-
+                    verificaVelha();
                 }
                 else
                 {
@@ -273,16 +274,15 @@ namespace tp04_wecton_228550
                 }
             }
         }
+        #endregion
 
-        private void gbJogo_Enter(object sender, EventArgs e)
+        #region botao de sair
+        private void btnSair_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
-
-        private void frmPrincipal_Load(object sender, EventArgs e)
-        {
-            
-        }
+        #endregion
+        #region jogada do computador
         void jogadaCPU(int x)
         {
             if (array[x] == 0)
@@ -293,6 +293,7 @@ namespace tp04_wecton_228550
                 aleatorio();
             }
         }
+        
         void aleatorio()
         {
             //   Random sorteio = new Random();
@@ -311,7 +312,8 @@ namespace tp04_wecton_228550
                 tentativa++;
             }
         }
-
+        #endregion
+        #region verificacoes
         void verifica()
         {
             //verifica 2
@@ -397,31 +399,31 @@ namespace tp04_wecton_228550
             {
                 encerrou = 1;
             }
-            if (array[0] == 1 && array[3] == 1 && array[6] == 1)
+            else if (array[0] == 1 && array[3] == 1 && array[6] == 1)
             {
                 encerrou = 1;
             }
-            if (array[2] == 1 && array[5] == 1 && array[8] == 1)
+            else if (array[2] == 1 && array[5] == 1 && array[8] == 1)
             {
                 encerrou = 1;
             }
-            if (array[6] == 1 && array[7] == 1 && array[8] == 1)
+            else if (array[6] == 1 && array[7] == 1 && array[8] == 1)
             {
                 encerrou = 1;
             }
-            if (array[3] == 1 && array[4] == 1 && array[5] == 1)
+            else if (array[3] == 1 && array[4] == 1 && array[5] == 1)
             {
                 encerrou = 1;
             }
-            if (array[1] == 1 && array[4] == 1 && array[8] == 1)
+            else if (array[1] == 1 && array[4] == 1 && array[7] == 1)
             {
                 encerrou = 1;
             }
-            if (array[2] == 1 && array[4] == 1 && array[6]==1)
+            else if (array[2] == 1 && array[4] == 1 && array[6]==1)
             {
                 encerrou = 1;
             }
-            if (array[0] == 1 && array[4] == 1 && array[8] == 1)
+            else if (array[0] == 1 && array[4] == 1 && array[8] == 1)
             {
                 encerrou = 1;
             }
@@ -431,7 +433,11 @@ namespace tp04_wecton_228550
                 MessageBox.Show("FIM DE JOGO. VOCÊ VENCEU!", "OK");
                 Array.Clear(array, 0, array.Length);
                 verifica();
+                vitorias++;
+                encerrou = 0;
+                lblResultado.Text = "" + vitorias + "x" + empates + "x" + derrotas;
             }
+
         }
         void acabouJogador2()
         {
@@ -439,31 +445,31 @@ namespace tp04_wecton_228550
             {
                 encerrou = 2;
             }
-            if (array[0] == 2 && array[3] == 2 && array[6] == 2)
+            else if (array[0] == 2 && array[3] == 2 && array[6] == 2)
             {
                 encerrou = 2;
             }
-            if (array[2] == 2 && array[5] == 2 && array[8] == 2)
+            else if (array[2] == 2 && array[5] == 2 && array[8] == 2)
             {
                 encerrou = 2;
             }
-            if (array[6] == 2 && array[7] == 2 && array[8] == 2)
+            else if (array[6] == 2 && array[7] == 2 && array[8] == 2)
             {
                 encerrou = 2;
             }
-            if (array[3] == 2 && array[4] == 2 && array[5] == 2)
+            else if (array[3] == 2 && array[4] == 2 && array[5] == 2)
             {
                 encerrou = 2;
             }
-            if (array[1] == 2 && array[4] == 2 && array[8] == 2)
+            else if (array[1] == 2 && array[4] == 2 && array[7] == 2)
             {
                 encerrou = 2;
             }
-            if (array[2] == 2 && array[4] == 2 && array[6] == 2)
+            else if (array[2] == 2 && array[4] == 2 && array[6] == 2)
             {
                 encerrou = 2;
             }
-            if (array[0] == 2 && array[4] == 2 && array[8] == 2)
+            else if (array[0] == 2 && array[4] == 2 && array[8] == 2)
             {
                 encerrou = 2;
             }
@@ -473,9 +479,39 @@ namespace tp04_wecton_228550
                 MessageBox.Show("FIM DE JOGO. VOCÊ PERDEU!", "OK");
                 Array.Clear(array, 0, array.Length);
                 verifica();
-
+                derrotas++;
+                encerrou = 0;
+                lblResultado.Text = "" + vitorias + "x" + empates + "x" + derrotas;
             }
         }
+        void verificaVelha()
+        {
+            if (array.All(x => x != 0) && encerrou == 0)
+            {
+                MessageBox.Show("FIM DE JOGO. DEU VELHA!", "OK");
+                empates++;
+                Array.Clear(array, 0, array.Length);
+                verifica();
+                lblResultado.Text = "" + vitorias + "x" + empates + "x" + derrotas;
+            }
+        }
+        #endregion
+
+        #region lixo
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+        private void gbJogo_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
 
 
     }

@@ -32,17 +32,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnComecar = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pbJogador = new System.Windows.Forms.PictureBox();
             this.gbJogo = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pbCPU = new System.Windows.Forms.PictureBox();
-            this.pbJogador1 = new System.Windows.Forms.PictureBox();
             this.pb9 = new System.Windows.Forms.PictureBox();
             this.pb8 = new System.Windows.Forms.PictureBox();
             this.pb7 = new System.Windows.Forms.PictureBox();
@@ -52,14 +48,18 @@
             this.pb3 = new System.Windows.Forms.PictureBox();
             this.pb2 = new System.Windows.Forms.PictureBox();
             this.pb1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pbJogador = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lblResultado = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pbCPU = new System.Windows.Forms.PictureBox();
+            this.pbJogador1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJogador)).BeginInit();
             this.gbJogo.SuspendLayout();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCPU)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbJogador1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb7)).BeginInit();
@@ -69,9 +69,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbJogador)).BeginInit();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCPU)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJogador1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -114,6 +114,18 @@
             this.btnSair.TabIndex = 8;
             this.btnSair.Text = "SAIR";
             this.btnSair.UseVisualStyleBackColor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::tp04_wecton_228550.Properties.Resources.Real_Madrid;
+            this.pictureBox2.Location = new System.Drawing.Point(429, 48);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(109, 107);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label2
             // 
@@ -124,6 +136,17 @@
             this.label2.Size = new System.Drawing.Size(338, 32);
             this.label2.TabIndex = 4;
             this.label2.Text = "SELECIONE O SEU TIME";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::tp04_wecton_228550.Properties.Resources.Santos_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(314, 49);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(109, 107);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // textBox1
             // 
@@ -141,6 +164,16 @@
             this.label1.Size = new System.Drawing.Size(116, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Digite o seu nome:";
+            // 
+            // pbJogador
+            // 
+            this.pbJogador.Image = global::tp04_wecton_228550.Properties.Resources.player;
+            this.pbJogador.Location = new System.Drawing.Point(7, 22);
+            this.pbJogador.Name = "pbJogador";
+            this.pbJogador.Size = new System.Drawing.Size(143, 134);
+            this.pbJogador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbJogador.TabIndex = 0;
+            this.pbJogador.TabStop = false;
             // 
             // gbJogo
             // 
@@ -160,78 +193,6 @@
             this.gbJogo.TabStop = false;
             this.gbJogo.Text = "Tela de Jogo";
             this.gbJogo.Enter += new System.EventHandler(this.gbJogo_Enter);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(135, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 56);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "X";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(88, 188);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 38);
-            this.label4.TabIndex = 12;
-            this.label4.Text = "PLACAR";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(70, 226);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(181, 16);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "JogadorXEmpateXComputador";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(109, 242);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(107, 38);
-            this.label6.TabIndex = 14;
-            this.label6.Text = "0x0x0";
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.pbCPU);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.pbJogador1);
-            this.panel1.Location = new System.Drawing.Point(529, 207);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(318, 453);
-            this.panel1.TabIndex = 15;
-            // 
-            // pbCPU
-            // 
-            this.pbCPU.Image = global::tp04_wecton_228550.Properties.Resources.player;
-            this.pbCPU.Location = new System.Drawing.Point(197, 40);
-            this.pbCPU.Name = "pbCPU";
-            this.pbCPU.Size = new System.Drawing.Size(109, 107);
-            this.pbCPU.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbCPU.TabIndex = 11;
-            this.pbCPU.TabStop = false;
-            // 
-            // pbJogador1
-            // 
-            this.pbJogador1.Image = global::tp04_wecton_228550.Properties.Resources.player;
-            this.pbJogador1.Location = new System.Drawing.Point(20, 40);
-            this.pbJogador1.Name = "pbJogador1";
-            this.pbJogador1.Size = new System.Drawing.Size(109, 107);
-            this.pbJogador1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbJogador1.TabIndex = 9;
-            this.pbJogador1.TabStop = false;
             // 
             // pb9
             // 
@@ -341,37 +302,77 @@
             this.pb1.TabStop = false;
             this.pb1.Click += new System.EventHandler(this.pb1_Click);
             // 
-            // pictureBox2
+            // label3
             // 
-            this.pictureBox2.Image = global::tp04_wecton_228550.Properties.Resources.Real_Madrid;
-            this.pictureBox2.Location = new System.Drawing.Point(429, 48);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(109, 107);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(135, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(56, 56);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "X";
             // 
-            // pictureBox1
+            // label4
             // 
-            this.pictureBox1.Image = global::tp04_wecton_228550.Properties.Resources.Santos_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(314, 49);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 107);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(88, 188);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(152, 38);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "PLACAR";
             // 
-            // pbJogador
+            // label5
             // 
-            this.pbJogador.Image = global::tp04_wecton_228550.Properties.Resources.player;
-            this.pbJogador.Location = new System.Drawing.Point(7, 22);
-            this.pbJogador.Name = "pbJogador";
-            this.pbJogador.Size = new System.Drawing.Size(143, 134);
-            this.pbJogador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbJogador.TabIndex = 0;
-            this.pbJogador.TabStop = false;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(70, 226);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(181, 16);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "JogadorXEmpateXComputador";
+            // 
+            // lblResultado
+            // 
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Arial", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(109, 242);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(107, 38);
+            this.lblResultado.TabIndex = 14;
+            this.lblResultado.Text = "0x0x0";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.lblResultado);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.pbCPU);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.pbJogador1);
+            this.panel1.Location = new System.Drawing.Point(529, 207);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(318, 453);
+            this.panel1.TabIndex = 15;
+            // 
+            // pbCPU
+            // 
+            this.pbCPU.Image = global::tp04_wecton_228550.Properties.Resources.player;
+            this.pbCPU.Location = new System.Drawing.Point(197, 40);
+            this.pbCPU.Name = "pbCPU";
+            this.pbCPU.Size = new System.Drawing.Size(109, 107);
+            this.pbCPU.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbCPU.TabIndex = 11;
+            this.pbCPU.TabStop = false;
+            // 
+            // pbJogador1
+            // 
+            this.pbJogador1.Image = global::tp04_wecton_228550.Properties.Resources.player;
+            this.pbJogador1.Location = new System.Drawing.Point(20, 40);
+            this.pbJogador1.Name = "pbJogador1";
+            this.pbJogador1.Size = new System.Drawing.Size(109, 107);
+            this.pbJogador1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbJogador1.TabIndex = 9;
+            this.pbJogador1.TabStop = false;
             // 
             // frmPrincipal
             // 
@@ -393,11 +394,10 @@
             this.Load += new System.EventHandler(this.frmPrincipal_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJogador)).EndInit();
             this.gbJogo.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCPU)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbJogador1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb7)).EndInit();
@@ -407,9 +407,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbJogador)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbCPU)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbJogador1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -439,7 +440,7 @@
         private System.Windows.Forms.PictureBox pbCPU;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnComecar;
         private System.Windows.Forms.Panel panel1;
     }
