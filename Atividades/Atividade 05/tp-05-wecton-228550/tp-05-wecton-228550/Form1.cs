@@ -177,7 +177,7 @@ namespace tp_05_wecton_228550
             {
                 for(int i =0; i<af; i++)
                 {
-                    r1 = (Math.Sqrt(2)) / 2 * af * 2 * Math.PI * f * c1;
+                    r1 = (Math.Sqrt(2)) / 2 * i * 2 * Math.PI * f * c1;
                     r2 = i * r1;
                     r3 = r2 / (i + 1);
                     c2 = 2 * (i + 1) * c1;
