@@ -73,6 +73,7 @@ namespace tp06_wecton_228550
                 {
                     try
                     {
+                        lblNumero.Text = Convert.ToString(i+1);
                         x[i] = int.Parse(txtAltura.Text);
                         lbxRol.Items.Clear();
 
@@ -126,6 +127,8 @@ namespace tp06_wecton_228550
         {
             i = 1;
             muda = true;
+            lblNumero.Text = Convert.ToString(i);
+
         }
         #endregion
 
