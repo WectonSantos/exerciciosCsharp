@@ -47,6 +47,8 @@ namespace tp06_wecton_228550
                   MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
                 txtAltura.Clear();
+                lbxAlturasF.Items.Clear();
+                lbxRol.Items.Clear();
                 txtAltura.Focus();
             }
         }
