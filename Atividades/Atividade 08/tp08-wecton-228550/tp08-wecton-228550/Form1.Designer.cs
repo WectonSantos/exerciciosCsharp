@@ -212,7 +212,7 @@
             // 
             this.PROCURAR.AutoSize = true;
             this.PROCURAR.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PROCURAR.Location = new System.Drawing.Point(570, 20);
+            this.PROCURAR.Location = new System.Drawing.Point(565, 17);
             this.PROCURAR.Name = "PROCURAR";
             this.PROCURAR.Size = new System.Drawing.Size(172, 32);
             this.PROCURAR.TabIndex = 15;
@@ -336,7 +336,7 @@
             // 
             this.btnRegistrar.Location = new System.Drawing.Point(466, 6);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(93, 47);
+            this.btnRegistrar.Size = new System.Drawing.Size(93, 56);
             this.btnRegistrar.TabIndex = 25;
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.UseVisualStyleBackColor = true;

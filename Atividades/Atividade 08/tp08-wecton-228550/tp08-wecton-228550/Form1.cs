@@ -117,13 +117,13 @@ namespace tp08_wecton_228550
             switch (cbProcura.Text)
             {
                 case "Disciplina":
-                    bsEscola.Filter = "Disciplina like '%" + mtxtProcura.Text.Trim() + "%'";
+                    alunosBindingSource1.Filter = "disciplina like '%" + mtxtProcura.Text.Trim() + "%'";
                     break;
                 case "Serie":
-                    bsEscola.Filter = "Serie like '%" + mtxtProcura.Text.Trim() + "%'";
+                    alunosBindingSource1.Filter = "serie like '%" + mtxtProcura.Text.Trim() + "%'";
                     break;
                 case "Matricula":
-                    bsEscola.Filter = "Matricula like '%" + mtxtProcura.Text.Trim() + "%'";
+                    alunosBindingSource1.Filter = "matricula like '%" + mtxtProcura.Text.Trim() + "%'";
                     break;
                 default:
                     mtxtProcura.Clear();
