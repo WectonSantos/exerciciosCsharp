@@ -83,12 +83,12 @@ namespace tp07_wecton_228550
 
                 if (posColuna == 0) return;
 
-                if (labirinto[posLinha, posColuna - 1] == "1")
-                {
+                //if (labirinto[posLinha, posColuna - 1] == "1")
+                //{
                     pbPersonagem.Location = new Point(x - 20, y);
                     posColuna--;
 
-                }
+               // }
             }
 
             else if (controle == "D")
@@ -98,11 +98,11 @@ namespace tp07_wecton_228550
 
                 if (posColuna == 16) return;
 
-                if (labirinto[posLinha, posColuna + 1] == "1")
-                {
+                //if (labirinto[posLinha, posColuna + 1] == "1")
+               // {
                     pbPersonagem.Location = new Point(x + 20, y);
                     posColuna++;
-                }
+               // }
             }
 
             else if (controle == "W")
@@ -112,11 +112,11 @@ namespace tp07_wecton_228550
 
                 if (posLinha == 0) return;
 
-                if (labirinto[posLinha - 1, posColuna] == "1")
-                {
+                //if (labirinto[posLinha - 1, posColuna] == "1")
+                //{
                     pbPersonagem.Location = new Point(x, y - 20);
                     posLinha--;
-                }
+                //}
             }
 
             else if (controle == "S")
@@ -126,11 +126,11 @@ namespace tp07_wecton_228550
 
                 if (posLinha == 8) return;
 
-                if (labirinto[posLinha + 1, posColuna] == "1")
-                {
+                //if (labirinto[posLinha + 1, posColuna] == "1")
+              //{
                     pbPersonagem.Location = new Point(x, y + 20);
                     posLinha++;
-                }
+               //}
             }
 
             if(timeLeft == 0)
