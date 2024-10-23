@@ -63,9 +63,6 @@
             this.situacao = new System.Data.DataColumn();
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.dgEscola = new System.Windows.Forms.DataGridView();
-            this.bsEscola = new System.Windows.Forms.BindingSource(this.components);
-            this.alunosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.alunosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.matriculaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.serieDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -76,18 +73,27 @@
             this.disciplinaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mediaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.situacaoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.alunosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.bsEscola = new System.Windows.Forms.BindingSource(this.components);
+            this.alunosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.menu = new System.Windows.Forms.MenuStrip();
+            this.exportarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.porLinhaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.porColunaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dsEscola)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Escola)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgEscola)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bsEscola)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource1)).BeginInit();
+            this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 1;
@@ -95,7 +101,7 @@
             // 
             // mtxtNome
             // 
-            this.mtxtNome.Location = new System.Drawing.Point(101, 6);
+            this.mtxtNome.Location = new System.Drawing.Point(101, 38);
             this.mtxtNome.Name = "mtxtNome";
             this.mtxtNome.Size = new System.Drawing.Size(198, 20);
             this.mtxtNome.TabIndex = 2;
@@ -103,7 +109,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 36);
+            this.label2.Location = new System.Drawing.Point(12, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(24, 13);
             this.label2.TabIndex = 3;
@@ -111,7 +117,7 @@
             // 
             // msk1
             // 
-            this.msk1.Location = new System.Drawing.Point(37, 33);
+            this.msk1.Location = new System.Drawing.Point(37, 65);
             this.msk1.Mask = "00.00";
             this.msk1.Name = "msk1";
             this.msk1.Size = new System.Drawing.Size(35, 20);
@@ -121,7 +127,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(305, 9);
+            this.label3.Location = new System.Drawing.Point(305, 41);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 5;
@@ -129,7 +135,7 @@
             // 
             // mskSerie
             // 
-            this.mskSerie.Location = new System.Drawing.Point(342, 6);
+            this.mskSerie.Location = new System.Drawing.Point(342, 38);
             this.mskSerie.Mask = "0ºA";
             this.mskSerie.Name = "mskSerie";
             this.mskSerie.Size = new System.Drawing.Size(24, 20);
@@ -139,7 +145,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(372, 9);
+            this.label4.Location = new System.Drawing.Point(372, 41);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 7;
@@ -147,7 +153,7 @@
             // 
             // mskMatricula
             // 
-            this.mskMatricula.Location = new System.Drawing.Point(428, 6);
+            this.mskMatricula.Location = new System.Drawing.Point(428, 38);
             this.mskMatricula.Mask = "00";
             this.mskMatricula.Name = "mskMatricula";
             this.mskMatricula.Size = new System.Drawing.Size(21, 20);
@@ -156,7 +162,7 @@
             // 
             // msk2
             // 
-            this.msk2.Location = new System.Drawing.Point(101, 33);
+            this.msk2.Location = new System.Drawing.Point(101, 65);
             this.msk2.Mask = "00.00";
             this.msk2.Name = "msk2";
             this.msk2.Size = new System.Drawing.Size(35, 20);
@@ -166,7 +172,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(76, 36);
+            this.label5.Location = new System.Drawing.Point(76, 68);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 13);
             this.label5.TabIndex = 9;
@@ -174,7 +180,7 @@
             // 
             // msk3
             // 
-            this.msk3.Location = new System.Drawing.Point(167, 33);
+            this.msk3.Location = new System.Drawing.Point(167, 65);
             this.msk3.Mask = "00.00";
             this.msk3.Name = "msk3";
             this.msk3.Size = new System.Drawing.Size(35, 20);
@@ -184,7 +190,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(142, 36);
+            this.label6.Location = new System.Drawing.Point(142, 68);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(24, 13);
             this.label6.TabIndex = 11;
@@ -192,7 +198,7 @@
             // 
             // msk4
             // 
-            this.msk4.Location = new System.Drawing.Point(234, 33);
+            this.msk4.Location = new System.Drawing.Point(234, 65);
             this.msk4.Mask = "00.00";
             this.msk4.Name = "msk4";
             this.msk4.Size = new System.Drawing.Size(35, 20);
@@ -202,7 +208,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(209, 36);
+            this.label7.Location = new System.Drawing.Point(209, 68);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(24, 13);
             this.label7.TabIndex = 13;
@@ -212,7 +218,7 @@
             // 
             this.PROCURAR.AutoSize = true;
             this.PROCURAR.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PROCURAR.Location = new System.Drawing.Point(565, 17);
+            this.PROCURAR.Location = new System.Drawing.Point(565, 49);
             this.PROCURAR.Name = "PROCURAR";
             this.PROCURAR.Size = new System.Drawing.Size(172, 32);
             this.PROCURAR.TabIndex = 15;
@@ -226,7 +232,7 @@
             "Matemática",
             "Geografia",
             "História"});
-            this.cbDisciplina.Location = new System.Drawing.Point(328, 32);
+            this.cbDisciplina.Location = new System.Drawing.Point(328, 64);
             this.cbDisciplina.Name = "cbDisciplina";
             this.cbDisciplina.Size = new System.Drawing.Size(121, 21);
             this.cbDisciplina.TabIndex = 16;
@@ -235,7 +241,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(275, 36);
+            this.label8.Location = new System.Drawing.Point(275, 68);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 13);
             this.label8.TabIndex = 17;
@@ -248,7 +254,7 @@
             "Disciplina",
             "Serie",
             "Matricula"});
-            this.cbProcura.Location = new System.Drawing.Point(749, 27);
+            this.cbProcura.Location = new System.Drawing.Point(749, 59);
             this.cbProcura.Name = "cbProcura";
             this.cbProcura.Size = new System.Drawing.Size(121, 21);
             this.cbProcura.TabIndex = 18;
@@ -257,7 +263,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(785, 6);
+            this.label9.Location = new System.Drawing.Point(785, 38);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 20);
             this.label9.TabIndex = 19;
@@ -265,7 +271,7 @@
             // 
             // mtxtProcura
             // 
-            this.mtxtProcura.Location = new System.Drawing.Point(881, 27);
+            this.mtxtProcura.Location = new System.Drawing.Point(881, 59);
             this.mtxtProcura.Name = "mtxtProcura";
             this.mtxtProcura.Size = new System.Drawing.Size(110, 20);
             this.mtxtProcura.TabIndex = 23;
@@ -334,7 +340,7 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(466, 6);
+            this.btnRegistrar.Location = new System.Drawing.Point(466, 38);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(93, 56);
             this.btnRegistrar.TabIndex = 25;
@@ -358,27 +364,12 @@
             this.mediaDataGridViewTextBoxColumn,
             this.situacaoDataGridViewTextBoxColumn});
             this.dgEscola.DataSource = this.alunosBindingSource1;
-            this.dgEscola.Location = new System.Drawing.Point(15, 68);
+            this.dgEscola.Location = new System.Drawing.Point(15, 100);
             this.dgEscola.Name = "dgEscola";
             this.dgEscola.ReadOnly = true;
             this.dgEscola.Size = new System.Drawing.Size(1049, 246);
             this.dgEscola.TabIndex = 27;
             this.dgEscola.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgEscola_CellContentClick);
-            // 
-            // bsEscola
-            // 
-            this.bsEscola.DataSource = this.dsEscola;
-            this.bsEscola.Position = 0;
-            // 
-            // alunosBindingSource
-            // 
-            this.alunosBindingSource.DataMember = "Alunos";
-            this.alunosBindingSource.DataSource = this.bsEscola;
-            // 
-            // alunosBindingSource1
-            // 
-            this.alunosBindingSource1.DataMember = "Alunos";
-            this.alunosBindingSource1.DataSource = this.bsEscola;
             // 
             // nomeDataGridViewTextBoxColumn
             // 
@@ -450,11 +441,59 @@
             this.situacaoDataGridViewTextBoxColumn.Name = "situacaoDataGridViewTextBoxColumn";
             this.situacaoDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // alunosBindingSource1
+            // 
+            this.alunosBindingSource1.DataMember = "Alunos";
+            this.alunosBindingSource1.DataSource = this.bsEscola;
+            // 
+            // bsEscola
+            // 
+            this.bsEscola.DataSource = this.dsEscola;
+            this.bsEscola.Position = 0;
+            // 
+            // alunosBindingSource
+            // 
+            this.alunosBindingSource.DataMember = "Alunos";
+            this.alunosBindingSource.DataSource = this.bsEscola;
+            // 
+            // menu
+            // 
+            this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exportarToolStripMenuItem});
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menu";
+            this.menu.Size = new System.Drawing.Size(1073, 24);
+            this.menu.TabIndex = 28;
+            this.menu.Text = "menuStrip1";
+            // 
+            // exportarToolStripMenuItem
+            // 
+            this.exportarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.porLinhaToolStripMenuItem,
+            this.porColunaToolStripMenuItem});
+            this.exportarToolStripMenuItem.Name = "exportarToolStripMenuItem";
+            this.exportarToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.exportarToolStripMenuItem.Text = "Exportar";
+            // 
+            // porLinhaToolStripMenuItem
+            // 
+            this.porLinhaToolStripMenuItem.Name = "porLinhaToolStripMenuItem";
+            this.porLinhaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.porLinhaToolStripMenuItem.Text = "Por Linha";
+            this.porLinhaToolStripMenuItem.Click += new System.EventHandler(this.porLinhaToolStripMenuItem_Click);
+            // 
+            // porColunaToolStripMenuItem
+            // 
+            this.porColunaToolStripMenuItem.Name = "porColunaToolStripMenuItem";
+            this.porColunaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.porColunaToolStripMenuItem.Text = "Por Coluna";
+            this.porColunaToolStripMenuItem.Click += new System.EventHandler(this.porColunaToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1073, 327);
+            this.ClientSize = new System.Drawing.Size(1073, 360);
             this.Controls.Add(this.dgEscola);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.mtxtProcura);
@@ -477,15 +516,19 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.mtxtNome);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.menu);
+            this.MainMenuStrip = this.menu;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dsEscola)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Escola)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgEscola)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bsEscola)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.alunosBindingSource1)).EndInit();
+            this.menu.ResumeLayout(false);
+            this.menu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -539,6 +582,11 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn mediaDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn situacaoDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource alunosBindingSource1;
+        private System.Windows.Forms.MenuStrip menu;
+        private System.Windows.Forms.ToolStripMenuItem exportarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porLinhaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porColunaToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog;
     }
 }
 

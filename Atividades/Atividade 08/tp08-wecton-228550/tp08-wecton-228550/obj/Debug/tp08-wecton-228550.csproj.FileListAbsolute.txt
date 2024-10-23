@@ -9,3 +9,14 @@ C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-2
 C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.csproj.CoreCompileInputs.cache
 C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.exe
 C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.pdb
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\bin\Debug\tp08-wecton-228550.exe.config
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\bin\Debug\tp08-wecton-228550.exe
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\bin\Debug\tp08-wecton-228550.pdb
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.csproj.AssemblyReference.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08_wecton_228550.Form1.resources
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08_wecton_228550.Properties.Resources.resources
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.csproj.GenerateResource.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.exe
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 08\tp08-wecton-228550\tp08-wecton-228550\obj\Debug\tp08-wecton-228550.pdb

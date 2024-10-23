@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace tp08_wecton_228550
 {
@@ -147,5 +148,55 @@ namespace tp08_wecton_228550
 
         }
         #endregion
+
+        private void porLinhaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog.Filter = "Arquivo de texto|*.txt";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter SW = new StreamWriter(saveFileDialog.FileName);
+                for (int i = 0; i < dsEscola.Tables["Alunos"].Rows.Count; i++)
+                {
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["Nome"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["Matricula"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["Serie"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["nota1"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["nota2"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["nota3"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["nota4"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["Disciplina"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["Media"]);
+                    SW.WriteLine(dsEscola.Tables["Alunos"].Rows[i]["Situacao"]);
+                    SW.WriteLine(string.Empty); //pula linha entre um registro e outro
+                }
+                SW.Dispose(); //Libera todos os recursos usados pelo Componente
+            }
+        }
+
+        private void porColunaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            saveFileDialog.Filter = "Arquivo de texto|*.txt";
+            if (saveFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                StreamWriter SW = new StreamWriter(saveFileDialog.FileName);
+                for (int i = 0; i < dsEscola.Tables["Alunos"].Rows.Count; i++)
+                {
+                    string nome = dgEscola.Rows[i].Cells[0].Value.ToString();
+                    string matricula = dgEscola.Rows[i].Cells[1].Value.ToString();
+                    string serie = dgEscola.Rows[i].Cells[2].Value.ToString();
+                    string nota1 = dgEscola.Rows[i].Cells[3].Value.ToString();
+                    string nota2 = dgEscola.Rows[i].Cells[4].Value.ToString();
+                    string nota3 = dgEscola.Rows[i].Cells[5].Value.ToString();
+                    string nota4 = dgEscola.Rows[i].Cells[6].Value.ToString();
+                    string disciplina = dgEscola.Rows[i].Cells[7].Value.ToString();
+                    string media = dgEscola.Rows[i].Cells[8].Value.ToString();
+                    string situacao = dgEscola.Rows[i].Cells[9].Value.ToString();
+
+                    SW.WriteLine(nome + " | " + matricula + " | " + serie + " | 1°Bimestre - " + nota1 + " | 2ºBimestre - " + nota2+
+                        " | 3º Bimestre - "+nota3+ " | 4º Bimestre - "+nota4+" | Disciplina - " + disciplina+ " | "+media+" | "+situacao);
+                }
+                SW.Dispose();
+            }
+        }
     }
 }
