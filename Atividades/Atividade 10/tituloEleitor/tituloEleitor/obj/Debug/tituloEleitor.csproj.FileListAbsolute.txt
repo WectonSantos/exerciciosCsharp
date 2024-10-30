@@ -1,0 +1,6 @@
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 10\tituloEleitor\tituloEleitor\bin\Debug\tituloEleitor.dll
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 10\tituloEleitor\tituloEleitor\bin\Debug\tituloEleitor.pdb
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 10\tituloEleitor\tituloEleitor\obj\Debug\tituloEleitor.csproj.AssemblyReference.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 10\tituloEleitor\tituloEleitor\obj\Debug\tituloEleitor.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 10\tituloEleitor\tituloEleitor\obj\Debug\tituloEleitor.dll
+C:\Users\unisanta\Desktop\exerciciosCsharp\Atividades\Atividade 10\tituloEleitor\tituloEleitor\obj\Debug\tituloEleitor.pdb
