@@ -1,0 +1,14 @@
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\tp11-wecton-228550.exe.config
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\tp11-wecton-228550.exe
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\tp11-wecton-228550.pdb
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\dllCartao.dll
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\dllCartao.pdb
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.csproj.AssemblyReference.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11_wecton_228550.Form1.resources
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11_wecton_228550.Properties.Resources.resources
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.csproj.GenerateResource.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.csproj.CopyComplete
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.exe
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.pdb

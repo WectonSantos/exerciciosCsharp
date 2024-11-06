@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2d0131cf-0f8f-4ce6-8969-dcbdbf34daeb": {
+      "ProjectGuid": "2d0131cf-0f8f-4ce6-8969-dcbdbf34daeb",
+      "DisplayName": "dllCartao",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
