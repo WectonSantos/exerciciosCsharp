@@ -36,6 +36,9 @@
     <Reference Include="dllCartao">
       <HintPath>..\..\dllCartao\dllCartao\bin\Debug\net6.0\dllCartao.dll</HintPath>
     </Reference>
+    <Reference Include="dllCartao2">
+      <HintPath>..\..\dllCartao2\dllCartao2\bin\Debug\netstandard2.0\dllCartao2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

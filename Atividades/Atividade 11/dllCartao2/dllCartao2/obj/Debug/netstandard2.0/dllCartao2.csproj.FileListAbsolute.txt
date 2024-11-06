@@ -1,0 +1,10 @@
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\bin\Debug\netstandard2.0\dllCartao2.deps.json
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\bin\Debug\netstandard2.0\dllCartao2.dll
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\bin\Debug\netstandard2.0\dllCartao2.pdb
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.csproj.AssemblyReference.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.AssemblyInfoInputs.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.AssemblyInfo.cs
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.dll
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\dllCartao2\dllCartao2\obj\Debug\netstandard2.0\dllCartao2.pdb

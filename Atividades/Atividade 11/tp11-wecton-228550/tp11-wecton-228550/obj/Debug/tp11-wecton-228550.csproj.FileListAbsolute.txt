@@ -12,3 +12,5 @@ C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11
 C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.csproj.CopyComplete
 C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.exe
 C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\obj\Debug\tp11-wecton-228550.pdb
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\dllCartao2.dll
+C:\Users\unisanta\Documents\GitHub\exerciciosCsharp\Atividades\Atividade 11\tp11-wecton-228550\tp11-wecton-228550\bin\Debug\dllCartao2.pdb

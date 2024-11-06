@@ -19,14 +19,26 @@ namespace tp11_wecton_228550
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            if (dllCartao.Validacoes.ValidaCartao(txtCartao.Text) == true)
+            try
             {
-                lblResultado.Text = "CERTO";
+                if (dllCartao2.Validacoes.ValidaCartao(txtCartao.Text) == true)
+                {
+                    lblResultado.Text = "VÁLIDO";
+                    lblResultado.ForeColor = Color.Green;
+
+                }
+                else
+                {
+                    lblResultado.Text = "INVÁLIDO";
+                    lblResultado.ForeColor = Color.Red;
+
+                }
             }
-            else
+            catch
             {
-                lblResultado.Text = "ERRADO";
+                MessageBox.Show("Valor Inválido!");
             }
+ 
         }
     }
 }

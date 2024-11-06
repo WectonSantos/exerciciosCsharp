@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GmVryoLyYp3LafMWkMn83/blm7l9g5iz6D27x9uZea2GXxjF0OMtQh/GHSb2N1BwWvFQVaEWYHsulQV/5eSDuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\unisanta\\Documents\\GitHub\\exerciciosCsharp\\Atividades\\Atividade 11\\dllCartao2\\dllCartao2\\dllCartao2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\unisanta\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\unisanta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
